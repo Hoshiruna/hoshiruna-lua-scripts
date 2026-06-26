@@ -13,8 +13,6 @@ local locale_loaded = {}
 local locale_map_path_templates = {
     "assets/lang/%s/struct/file.json",
     "data/assets/lang/%s/struct/file.json",
-    "packages/tffa-scripts/assets/lang/%s/struct/file.json",
-    "packages/tffa-resources/assets/lang/%s/struct/file.json",
 }
 
 ---@type table<string, { kind: string, name: string, key: string, default_path: string, args: table }>
